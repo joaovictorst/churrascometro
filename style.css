@@ -1,0 +1,12 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.container{
+  max-width: 300px;
+  margin: auto;
+  background-color: rgb(218, 253, 253);
+  padding: 20px;
+}
