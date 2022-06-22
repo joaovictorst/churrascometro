@@ -30,3 +30,23 @@ input{
   box-sizing: border-box; 
   margin-bottom: 10px;
 }
+
+
+.container button {
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.resultado-area{
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.resultado-area img{
+  width: 3rem;
+  height: 3rem;
+  margin: 0;
+  margin-right: 0.5rem;
+}
