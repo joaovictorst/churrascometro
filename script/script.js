@@ -20,8 +20,8 @@ function calcular(){
   resultado.innerHTML = `<h2>você irá precisar de:</h2>`
   resultado.innerHTML += `<div class="resultado-area"><img src="./assets/carne.svg"/><p>${qdtTotalCarne/1000} Kg de Carne</p>
   </div>`
-  resultado.innerHTML += `<div class="resultado-area"><img src="../assets/cerveja.svg"/> <p>${Math.ceil(qdtTotalCerveja/355)} latas de Cerveja </p> </div>`
-  resultado.innerHTML += `<div class="resultado-area"><img src="../assets/refri.svg"/> <p>${Math.ceil(qdtTotalBebida/2000)} garrafas de Bebida </p> </div>`
+  resultado.innerHTML += `<div class="resultado-area"><img src="./assets/cerveja.svg"/> <p>${Math.ceil(qdtTotalCerveja/355)} latas de Cerveja </p> </div>`
+  resultado.innerHTML += `<div class="resultado-area"><img src="./assets/refri.svg"/> <p>${Math.ceil(qdtTotalBebida/2000)} garrafas de Bebida </p> </div>`
 }
 
 function carnePP(duracao){
